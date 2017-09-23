@@ -2,7 +2,11 @@
 
 ## sismomx-banco-tiempo
 
-Como sabemos se vienen semanas dificiles para todos los mexicanos damnificados por el terremoto del 19 S 2017, #BancoDeAyuda busca que todos aquellos que se han quedado sin casa, sin trabajo, sin comida, etcétera, cualquiera que sea su necesidad pueda salir adelante invirtiendo su tiempo (a falta de dinero), que es parecido al concepto de [Banco de Tiempo](https://es.wikipedia.org/wiki/Banco_de_tiempo) en donde buscamos que los usuarios (damnificados) que tienen una necesidad, puedan ser cubiertas ofreciando algun servicio.
+Se vienen semanas difíciles para los damnificados tras el terremoto ocurrido el 19 de Septiembre de 2017.
+
+#BancoDeAyuda pretende ser una herramienta útil para intercambiar servicios por algún tipo de asistencia para aquellos que se hayan quedado sin trabajo y sin hogar.
+
+Banco de ayuda está basado en el concepto [Banco de Tiempo](https://es.wikipedia.org/wiki/Banco_de_tiempo), que básicamente es: servicios por productos o asistencia.
 
 Tambien se puede ver como una plataforma donde se pueda ofrecer trabajo exclusivamente a damnificados pues son ellos los que requieren un tipo de trabajo flexible a su necesidad, podría ser un apartado de ofertas laborales.
 
