@@ -25,7 +25,7 @@ Para correr el proyecto en local necesitas
 
 ## ¿Cómo usar el proyecto con *Docker*?
 
-Es necesario tener [docker]() y [docker-compose]() instalado.
+Es necesario tener [docker](https://store.docker.com/search?offering=community&type=edition) y [docker-compose](https://docs.docker.com/compose/install/) instalado.
 
 ### Setup
 
