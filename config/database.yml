@@ -1,26 +1,25 @@
-development:
+default: &default
   adapter: postgresql
+  encoding: unicode
   encoding: utf8
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
   database: sismomx-banco-tiempo
-  pool: 5
-  username: sismomx-banco-tiempo
-  password: 123
+  user: <%= Rails.application.secrets.pg_user %>
+  password: <%= Rails.application.secrets.pg_pass %>
+  host: localhost
 
 test: &TEST
-  adapter: postgresql
-  encoding: utf8
+  <<: *default
   database: sismomx-banco-tiempo_test
-  pool: 5
-  username: sismomx-banco-tiempo
-  password: 123
+  user: postgres
+  host: <%= ENV['HOST'] %>
 
 production:
-  adapter: postgresql
-  encoding: utf8
+  <<: *default
   database: sismomx-banco-tiempo_production
-  pool: 5
   username: sismomx-banco-tiempo
-  password: 123
-
-cucumber:
-  <<: *TEST
+  host: postgres
+  password: <%= ENV['BITSO_ALERTS_DATABASE_PASSWORD'] %>
