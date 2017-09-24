@@ -1,6 +1,9 @@
-# Banco de Ayuda (nombre por definir)
+# Banco de Ayuda
+# Central de Ayuda
+# ReconstruirMX
+## (nombre por definir)
 
-## sismomx-banco-tiempo
+## Canal de [slack](https://codeandomexico.slack.com/) - #sismomx-banco-tiempo
 
 Se vienen semanas difíciles para los damnificados tras el terremoto ocurrido el 19 de Septiembre de 2017.
 
