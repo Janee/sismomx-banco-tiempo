@@ -38,9 +38,28 @@ docker-compose run --rm web bash
 ```
 
 3. Migra la *Base de Datos* con:
+
 ``` shell
 rails db:migrate
 ```
+
+### Restaura (o crea) la Base de Datos
+
+1. Abre una terminal y corre:
+
+``` shell
+docker-compose up -d db
+```
+
+> Esto inicia el contenedor **db**
+
+2. Después, corre:
+
+``` shell
+docker exec -ti sismomxbancotiempo_db_1 bash
+```
+
+> Esto incia una sesión bash dentro del contenedor y se pueden utilizar los comandos de *PostgreSQL* para crear y restaurar
 
 ### Desarrollo
 1. Abre una terminal y corre:
