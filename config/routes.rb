@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :collaborations
+  resources :service_requests
+  resources :offers
+  resources :services
   devise_for :users
   resources :events
 
