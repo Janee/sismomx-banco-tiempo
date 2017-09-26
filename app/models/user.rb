@@ -6,4 +6,5 @@ class User < ApplicationRecord
          :confirmable, :lockable, :timeoutable
   has_many :offer, as: :offering
   has_many :service_request
+  has_many :collaboration
 end
