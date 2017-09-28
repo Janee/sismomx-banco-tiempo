@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  time_start: 2017-09-26 13:00:31
+  time_end: 2017-09-26 13:00:31
+  total_hours: 1
+  reference: 
+  reference: 
+
+two:
+  time_start: 2017-09-26 13:00:31
+  time_end: 2017-09-26 13:00:31
+  total_hours: 1
+  reference: 
+  reference: 

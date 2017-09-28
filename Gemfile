@@ -21,6 +21,7 @@ gem 'react-rails'                       # Use ReactJS as frontend
 gem 'bootstrap-sass', '~> 3.3.6'        # Use Bootstrap as CSS framework
 gem 'jquery-rails'                      # JQuery bindings
 gem 'pg'                                # Use PostgreSQL as database.
+gem 'devise'                            # Use devise as flexible auth for users.
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
